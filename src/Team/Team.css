@@ -1,0 +1,81 @@
+.team {
+  margin: 2vw;
+  text-align: center;
+  height: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.team h2 {
+  font-size: 3vw;
+  color: rgb(59, 3, 57);
+}
+.card img {
+  height: 100%;
+}
+.card {
+  height: 30vw;
+  width: 26.1vw;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 0.5s;
+}
+.card:hover .front {
+  transform: rotateX(-180deg);
+}
+.card:hover .back {
+  transform: rotateX(0deg);
+}
+.front {
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+}
+
+.back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+  color: #ffffff;
+  text-align: center;
+  background-color: #d60d3d;
+}
+.back img {
+  opacity: 0.6;
+}
+.team-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18vw;
+  margin-left: 20vw;
+}
+
+.back h5 {
+  position: absolute;
+  top: calc(50% - 90px);
+  left: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+  margin: 1em 0;
+  font-size: 2vw;
+}
+.back p {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: 5%;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+  width: 90%;
+}

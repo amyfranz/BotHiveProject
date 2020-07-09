@@ -1,0 +1,39 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  text-align: center;
+  background-color: #f6f5fb;
+}
+
+.about-us h2 {
+  font-size: 4vw;
+  margin: 1vw;
+  color: rgb(59, 3, 57);
+}
+.about-us h3 {
+  font-size: 3vw;
+  margin: 1vw;
+  color: rgb(59, 3, 57);
+}
+.about-us p {
+  font-size: 2vw;
+  margin: 1vw;
+  color: rgb(59, 3, 57);
+}
+
+.about-us-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners {
+  display: flex;
+  margin: 0.5em;
+}
+.partners img {
+  width: 15vw;
+  height: 5vw;
+  margin: 0 2vw;
+}

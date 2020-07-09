@@ -1,0 +1,54 @@
+.newsletter {
+  background-color: #0b1d2e;
+  height: 55vh;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.newsletter h2 {
+  font-size: 5vw;
+  color: #d60d3d;
+  margin-bottom: 0.5em;
+}
+
+.newsletter h3 {
+  font-size: 3vw;
+}
+
+.envelope {
+  font-size: 5vw;
+  margin: 0.5em;
+  color: #e7a8b7;
+}
+
+.newsletter p {
+  font-size: 1.7vw;
+}
+
+.newsletter form {
+  margin-top: 2em;
+}
+
+.newsletter input {
+  width: 30vw;
+  border-radius: 0;
+  border-width: 0 0 2px 0;
+  background-color: rgba(253, 194, 194, 0.17);
+  box-sizing: border-box !important;
+  color: rgb(254, 96, 96);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  padding: 8px;
+  margin: 0.5em;
+}
+
+.newsletter input[type="submit"] {
+  width: 15vw;
+  background-color: #e7a8b7;
+  border: solid rgb(255, 255, 255) 0px;
+  cursor: pointer !important;
+  color: #d60d3d;
+}

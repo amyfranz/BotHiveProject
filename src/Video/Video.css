@@ -1,0 +1,17 @@
+.video {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video iframe {
+  width: 50%;
+  height: 50vh;
+}
+
+.video p {
+  width: 40%;
+  font-size: 3vw;
+  color: rgb(59, 3, 57);
+}
